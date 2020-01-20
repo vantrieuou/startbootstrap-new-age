@@ -1,0 +1,13 @@
+.page {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    @media (min-width: 992px) {
+        height: 100vh;
+        min-height: 775px;
+        // padding-top: 0;
+        // padding-bottom: 0;
+    }
+}
