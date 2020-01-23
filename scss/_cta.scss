@@ -5,6 +5,10 @@ section.cta {
     background-image: url('../img/keyboard.jpg');
     background-position: top;
     @include background-cover;
+
+    &.technology {
+        background-image: url('../img/technology.jpg');
+    }
     .cta-content {
         position: relative;
         z-index: 1;
