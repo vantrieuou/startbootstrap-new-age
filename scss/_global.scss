@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: $theme-tertiary;
+    // color: $theme-secondary;
     @include transition-all;
     &:hover,
     &:focus {
