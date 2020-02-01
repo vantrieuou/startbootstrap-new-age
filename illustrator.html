@@ -67,45 +67,25 @@
     </div>
   </nav>
 
-  <section>
+  <header id="overlay">
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <!-- <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
+
+          <source src="https://playcode.io/lstatic/video/intro.webm" type="video/webm">
+              <source src="https://playcode.io/lstatic/video/intro.mp4" type="video/mp4">
+
+      </video>
       <div class="container h-100">
-          <div class="row align-items-center">
-              <div class="col-sm-24 col-md-24 offset-0">
-                  <h1 class="text-text-2 font-size-40 text-center">
-                      Online JavaScript Editor
-                  </h1>
-              </div>
-              <div class="col-sm-24 text-center d-flex justify-content-center">
-                  <div>
-                      <div class="font-size-19 max-w-450">
-                          Write and run your javascript code online, see result in live view or in editor console. Share your
-                          javascript.
-                      </div>
-                      <a class="mt-7 btn btn-primary" href="/">Open Editor</a>
-                  </div>
-              </div>
-
-              <div class="d-flex justify-content-center">
-                  <div class="browser-frame chrome">
-                      <div class="frame-bar">
-                          <div class="tab-holder">
-                              <div class="tab">
-                                  <div class="inner "></div>
-                                  <span>ThePictureDictionary</span>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="brower-page">
-                          <video autoplay="" loop="" muted="" playsinline="" class="w-100">
-                              <source src="https://playcode.io/lstatic/video/intro.webm" type="video/webm">
-                                  <source src="https://playcode.io/lstatic/video/intro.mp4" type="video/mp4">
-                          </video></div>
-                  </div>
+          <div class="d-flex h-100 text-center align-items-center">
+              <div class="w-100 text-white">
+                  <h1 class="display-3">Video Header</h1>
+                  <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
               </div>
           </div>
       </div>
-  </section>
+  </header>
+
 
 
   <section class="contact bg-primary" id="contact">
